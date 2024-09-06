@@ -1,0 +1,86 @@
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:27:22 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:27:22 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:28:23 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:28:23 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:30:23 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:30:23 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:32:18 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:32:18 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:33:24 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:33:24 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:37:39 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:37:39 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:41:49 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:41:49 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:44:56 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:44:56 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:50:29 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:50:29 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:52:02 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:52:02 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 41
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 44
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:58:08 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 66
+[07-May-2023 01:58:08 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'qaseduc_usujardi'@'localhost' to database 'qaseduc_' in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 9
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 42
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 45
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 46
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_errno() expects parameter 1 to be mysqli, bool given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 47
+[07-May-2023 01:59:38 America/Santiago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/qaseduc/public_html/JardineriaWeb/class/conexion.php on line 67
+[07-May-2023 01:59:38 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 02:01:16 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34
+[07-May-2023 02:03:25 America/Santiago] PHP Notice:  Undefined variable: mandarCorreo in /home/qaseduc/public_html/JardineriaWeb/guardar/guardarUsuario.php on line 34

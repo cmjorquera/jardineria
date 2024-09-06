@@ -1,0 +1,14 @@
+[07-May-2023 23:08:37 UTC] PHP Warning:  include(include3/cabezera.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:37 UTC] PHP Warning:  include(): Failed opening 'include3/cabezera.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(include3/cabezera.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(): Failed opening 'include3/cabezera.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(include3/cabezera.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(): Failed opening 'include3/cabezera.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(include3/cabezera.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[07-May-2023 23:08:38 UTC] PHP Warning:  include(): Failed opening 'include3/cabezera.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 23
+[08-May-2023 13:24:25 UTC] PHP Warning:  include(../include/login_ingresar.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 505
+[08-May-2023 13:24:25 UTC] PHP Warning:  include(): Failed opening '../include/login_ingresar.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 505
+[08-May-2023 13:24:25 UTC] PHP Warning:  include(../include/login_ingresar_2.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 507
+[08-May-2023 13:24:25 UTC] PHP Warning:  include(): Failed opening '../include/login_ingresar_2.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 507
+[08-May-2023 18:55:16 UTC] PHP Warning:  include(include/login_ingrEesar_2.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/JardineriaWeb/index.php on line 505
+[08-May-2023 18:55:16 UTC] PHP Warning:  include(): Failed opening 'include/login_ingrEesar_2.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/JardineriaWeb/index.php on line 505

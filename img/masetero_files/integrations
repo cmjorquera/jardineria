@@ -1,0 +1,94 @@
+(function(FS) {
+  var session = FS.getCurrentSession(), sessionUrl = FS.getCurrentSessionURL();
+  function retryWithBackoff(condition, callback, maxWait, failureMsg, timeoutCallback) {
+    var totalTimeExpired = 0;
+    var wait = 64;
+    var resultFn = function() {
+      if (condition()) {
+        callback();
+        return;
+      }
+      wait = Math.min(wait * 2, 1024);
+      if (totalTimeExpired > maxWait) {
+        FS.log('warn', failureMsg);
+        !!timeoutCallback && timeoutCallback(failureMsg);
+        return;
+      }
+      totalTimeExpired += wait
+      setTimeout(resultFn, wait);
+    };
+    return resultFn;
+  }
+  function loadSession(key) {
+	var lastSession = window['localStorage'].getItem(key);
+    if (!lastSession) {
+      lastSession = FS._cookies()[key];
+    }
+    return lastSession
+  }
+  function saveSession(key, session) {
+    window['localStorage'].setItem(key, session);
+  }
+
+  var gaSessionUrl = sessionUrl + '?integration_src=ga_universal';
+  function gaOnPage() {
+    return window['ga'] && typeof(ga)=="function";
+  }
+  function fsGaInit() {
+    ga(function() {
+      var sentMap = {};
+      var dimensionMap = {};
+      dimensionMap['UA-378501-24'] = 'dimension43';
+      dimensionMap['UA-378501-26'] = 'dimension14';
+      dimensionMap['UA-378501-33'] = 'dimension18';
+      dimensionMap['UA-378501-34'] = 'dimension8';
+      dimensionMap['UA-378501-35'] = 'dimension3';
+      dimensionMap['UA-378501-36'] = 'dimension2';
+      dimensionMap['UA-378501-37'] = 'dimension2';
+      dimensionMap['UA-378501-39'] = 'dimension1';
+      dimensionMap['UA-378501-40'] = 'dimension1';
+      dimensionMap['UA-378501-41'] = 'dimension2';
+      dimensionMap['UA-378501-42'] = 'dimension1';
+      dimensionMap['UA-378501-45'] = 'dimension1';
+      dimensionMap['UA-378501-46'] = 'dimension1';
+      dimensionMap['UA-378501-48'] = 'dimension1';
+      dimensionMap['UA-378501-49'] = 'dimension1';
+      dimensionMap['UA-378501-50'] = 'dimension1';
+      dimensionMap['UA-378501-51'] = 'dimension4';
+      dimensionMap['UA-378501-52'] = 'dimension1';
+      dimensionMap['UA-378501-53'] = 'dimension1';
+      dimensionMap['UA-378501-54'] = 'dimension1';
+      dimensionMap['UA-378501-55'] = 'dimension1';
+      ga.getAll().forEach(function(tracker) {
+        var propertyId = tracker.get('trackingId');
+        if (dimensionMap[propertyId] && !sentMap[propertyId]) {
+          tracker.set(dimensionMap[propertyId], gaSessionUrl);
+          tracker.send('event', {
+            'eventCategory': 'FullStory',
+            'nonInteraction': 1
+          });
+          sentMap[propertyId] = true;
+        }
+      });
+      FS('stat', {
+        eventType: 'INTEGRATION_INITIALIZED',
+        payload: {
+          provider_id: 'ga_universal',
+          event_status: 'SUCCESS'
+        }
+      });
+    });
+  }
+  function gaTimeout(message) {
+    FS('stat', {
+      eventType: 'INTEGRATION_INITIALIZED',
+      payload: {
+        provider_id: 'ga_universal',
+        event_status: 'FAILURE',
+        metadata: { detail: message }
+      }
+    })
+  }
+  retryWithBackoff(gaOnPage, fsGaInit, 4000, 'The FullStory integration with Google Analytics is enabled, but FullStory could not find Google Analytics on the page.', gaTimeout)();
+  
+})(window['_fs_namespace'] ? window[window['_fs_namespace']] : window['FS'])
